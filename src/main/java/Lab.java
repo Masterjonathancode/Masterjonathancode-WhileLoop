@@ -33,7 +33,7 @@ public class Lab {
      *
      **/
     int i = 0;
-    int sum =0;
+    int sum = 0;
     int end = 6; 
     public int whileExample(int end){
         while (i < end)
@@ -42,15 +42,21 @@ public class Lab {
             System.out.println(i); 
             System.out.println(sum); 
             i = i +1;
+    
         }
        
 //        code here
+//sum = 0; 
+if (end ==0)
+return 0; 
+else {
+    System.out.println(sum);
+    return sum; 
+}
 
-return sum; 
-//System.out.println(sum);  
+
 
 
     }
-
    
 }
