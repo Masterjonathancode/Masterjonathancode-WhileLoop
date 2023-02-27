@@ -11,7 +11,7 @@ public class Lab {
      * For this example, let's use a while loop to get the sum of all numbers between 0 and end (exclusive).
      * At the 'code here' point, let's write a while loop that runs on the condition
      *     i<end
-     * and contains within its block (within its curly braces) the code
+     * and contains within its block (within its curly braces) the code  
      *     sum = sum + i;
      *     i = i + 1;
      *
